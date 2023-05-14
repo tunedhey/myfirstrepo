@@ -12,4 +12,4 @@ def ageCalc(y, m, d):
 
     return age
 
-print("You are {} years old today!!".format(ageCalc(year, month, day)))
+print("\nYou are {} years old today!!".format(ageCalc(year, month, day)))
