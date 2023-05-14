@@ -1,8 +1,8 @@
 import datetime
 
-year = int(input("Enter Your Birth Year >>: "))
-month = int(input("Enter Your Birth Month >>: "))
-day = int(input("Enter Your Birth Day >>: "))
+year = int(input("Enter Your Birth Year: "))
+month = int(input("Enter Your Birth Month: "))
+day = int(input("Enter Your Birth Day: "))
 
 def ageCalc(y, m, d):
 
@@ -12,4 +12,4 @@ def ageCalc(y, m, d):
 
     return age
 
-print("Your age is: " + ageCalc(year, month, day))
+print("You are {} years old today!!".format(ageCalc(year, month, day)))
